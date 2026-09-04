@@ -382,9 +382,13 @@ export default function Home() {
           )}
         </div>
 
-        <p className="text-center text-[11px] text-gray-400 mt-5">
-          Made with ❤️ by D M Mohamad Mohiuddin Mushahedulla · AI Teacher · Govt Girls High School
-        </p>
+      <div className="flex justify-center mt-6">
+  <div className="flex items-center gap-2.5 text-[13px] text-gray-700 bg-gradient-to-r from-yellow-50 via-pink-50 to-purple-50 border border-pink-200 rounded-full px-5 py-2.5 shadow-md hover:shadow-lg transition-shadow duration-300">
+    <p>
+      Made with ❤️ by <span className="font-semibold text-purple-700">D M Mohamad Mohiuddin Mushahedulla</span> · AI Teacher · Govt Girls High School Molakalmuru
+    </p>
+  </div>
+</div>
       </div>
     </main>
   );
